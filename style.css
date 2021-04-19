@@ -1,20 +1,27 @@
 html,body{
     margin: 0px;
     padding: 0px;
-    text-align: center;
     background-color: #181818;
-
+    
 }
 /* container principal*/
 
-#Pai{
+.center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#pai{
+    display: grid;
     border-radius: 10px;
-    display: inline-block;
     margin: 100px;
     height: 550px;
     width: 500px;
     background-color:gray;
+    
 }
+
 
 
 /*RESPOSTAS display*/
@@ -25,9 +32,23 @@ html,body{
     text-align: center;
     height: 150px;
     width: 340px;
-    margin: 60px;
-    text-align: center;
     
+    
+    
+}
+
+
+
+.cadastro{
+    text-align: start;
+    width: 340px;
+    
+}
+
+
+.nomeclatura{
+    display: inline-block;
+    width: 60px;
 }
 
 
